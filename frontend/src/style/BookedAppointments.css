@@ -1,0 +1,95 @@
+.appointments-section {
+  padding: 2rem;
+   /* Dark elegat background */
+  min-height: 50vh;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: yellow !important; /* FIXED: added !important to override any other styles */
+  font-weight: 600;
+}
+
+.appointments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.appointment-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 6px solid orange; /* FIXED: missing space */
+}
+
+
+.appointment-card {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.appointment-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.appointment-card h3 {
+  margin: 0 0 0.7rem;
+  color: #29394f;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.appointment-card p {
+  margin: 0.4rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.booked {
+  color: green;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.cancelled {
+  color: red;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.pagination button {
+  margin: 0 0.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.pagination button.active,
+.pagination button:hover {
+  background: rgb(110, 132, 190);
+  color: white;
+}

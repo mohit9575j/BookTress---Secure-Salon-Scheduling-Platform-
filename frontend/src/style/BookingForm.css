@@ -1,0 +1,60 @@
+.booking-form-container {
+  background-color: #1f2937; /* Tailwind's gray-900 */
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.booking-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #fbbf24; /* Tailwind's yellow-400 */
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.booking-form input {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: white; /* ADD: white background */
+  color: black; /* ADD: black text */
+}
+
+.booking-form input:focus {
+  outline: 2px solid #fbbf24;
+}
+
+.booking-form button {
+  background-color: #fbbf24;
+  color: black;
+  font-weight: bold;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #facc15; /* lighter yellow */
+}
+
+.booking-form input::placeholder {
+  color: black;
+}
