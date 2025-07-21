@@ -1,50 +1,49 @@
-# Blue Bank Application 💸
+# BookTress - Secure Salon Scheduling Platform   💇‍♀️💅
 
-A modern full-stack banking application built using the **MERN-like stack** with **MySQL** as the relational database. It provides user authentication, account management, transactions tracking, and more — designed for seamless digital banking.
+**BookTress - Secure Salon Scheduling Platform ** is a modern full-stack salon and spa appointment booking application designed for users to easily find, book, and manage salon services. It offers real-time scheduling, service listings, admin dashboards, and responsive UI for both customers and service providers.
 
 ---
 
 ## 🏗️ Tech Stack
 
 ### 🔹 Frontend – React.js
-- React v19
-- React Router DOM v7
-- Tailwind CSS
-- Axios
-- Toast Notifications
-- Lucide Icons
-- Animations using `motion` and `tw-animate-css`
+- React 19 with functional components
+- Tailwind CSS for modern design
+- React Router DOM for routing
+- Axios for API calls
+- Framer Motion & Animate.css for transitions
+- Lucide Icons for clean UI icons
+- React Toastify for notifications
 
-### 🔹 Backend – Node.js + Express
-- Express.js v5
-- Sequelize ORM
-- MySQL2
-- JWT Authentication
-- Bcrypt for password hashing
-- Multer for file uploads
+### 🔹 Backend – Node.js + Express.js
+- Express.js framework
+- MySQL Database with Sequelize ORM
+- JWT for user authentication
+- Bcrypt for secure password hashing
+- Multer for image uploads
 - dotenv for config
-- Rate Limiting Middleware
+- Express-rate-limit for security
 
 ---
 
-## 🧠 Features
+## 🔐 Features
 
-✅ User Signup & Login  
-✅ JWT-Based Authentication  
-✅ Secure Password Hashing  
-✅ Role-based Access (Admin/User)  
-✅ Account & Transaction APIs  
-✅ Sequelize ORM Models  
-✅ Rate Limiting Middleware  
-✅ Toast Notifications for UI feedback  
-✅ TailwindCSS + Animate utilities for modern UI  
-✅ Full Mobile-Responsive Frontend
+✅ User Signup & Secure Login  
+✅ Browse & Search Salon Services  
+✅ Book Appointments with Time Slots  
+✅ Admin Panel for Service Providers  
+✅ Add/Edit/Delete Services  
+✅ Upload Service Images  
+✅ Role-based Authentication (Admin/Customer)  
+✅ Toast Notifications for Instant Feedback  
+✅ Fully Responsive Design for Mobile/Desktop  
+✅ Elegant UI with Tailwind + Animations
 
 ---
 
-## 🔧 Getting Started
+## 🔧 Setup Instructions
 
-### 🚀 Run Backend
+### 🚀 Backend Setup
 
 ```bash
 cd backend
